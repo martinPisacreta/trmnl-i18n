@@ -77,6 +77,9 @@
 - markups.visual_editor.variables
 - playlist_items.playlist_item.mashup
 - plugin_recipes.show.strategies.webhook
+- plugin_settings.form.edit_title
+- plugin_settings.index.page_title
+- plugin_settings.recipe_review.trmy
 - renders.place_of_the_day.square_km
 - timelines.activity.checkin.firmware
 - timelines.trace.units.minutes

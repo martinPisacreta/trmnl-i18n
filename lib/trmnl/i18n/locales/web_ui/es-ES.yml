@@ -2061,16 +2061,16 @@ es-ES:
     create:
       success: Plugin creado y añadido a tu
       playlist: lista
-      plugin_not_found: Plugin not found.
+      plugin_not_found: No se ha encontrado el plugin.
     destroy:
       success: Plugin eliminado
     handle_canceled_consent: Consentimiento cancelado, por favor inténtelo de nuevo
     update:
       success: Configuración del plugin actualizada con éxito
       required_fields_missing: Rellena %{fields} para terminar de configurar este plugin.
-      oauth_disconnected: Settings saved. OAuth was disconnected because scopes changed. Please reconnect.
+      oauth_disconnected: Ajustes guardados. OAuth se ha desconectado porque cambiaron los permisos. Vuelve a conectarlo.
     add_to_playlist:
-      added_to_device: Added to %{device}'s playlist
+      added_to_device: Añadido a la lista de reproducción de %{device}
     refresh_already_in_progress: Ya hay una actualización en curso. Tu pantalla se actualizará en breve.
     remote_select:
       awaiting_connection: Conecta tu cuenta en la sección OAuth de arriba y recarga esta página.
@@ -2087,7 +2087,7 @@ es-ES:
     index:
       no_plugin_settings_found: Todavía no has configurado este plugin.
       analytics: Estadísticas
-      meta_title: "%{plugin} Plugin Settings"
+      meta_title: Ajustes del plugin %{plugin}
       page_title: Plugins | %{company}
     health_status_banner:
       short_heading: Estadísticas del plugin
@@ -2195,16 +2195,16 @@ es-ES:
       empty: Todavía no has consultado a trmy.
       rate_limited: Has solicitado demasiadas revisiones hoy. Vuelve a intentarlo mañana.
       back: Volver al plugin
-      modal_title_required: trmy reviews each recipe before you submit
-      modal_intro_required: trmy, our internal review agent, runs your plugin through the trmnlp tests on TRMNL OG and TRMNL X, in landscape and portrait. Once trmy finds nothing that holds it back, you can submit, and a person on our support team takes it from there. trmy replies on a page here, and we email you the link, usually within an hour.
-      gate_closed: Ask trmy to review your latest version first. You can submit once trmy finds nothing that holds your recipe back, or once you tell us why you'd keep something as it is.
-      changed_since: You changed your recipe after this review. Ask trmy again before you submit.
-      passed: trmy found nothing that holds your recipe back. You can submit it now.
-      held: trmy asks for the changes above before you submit. Make them and ask again, or tell us below why you'd keep something as it is.
-      justification_label: Why keep it as it is?
-      justification_placeholder: The X text is smaller on purpose, so the whole week fits on one screen.
-      justification_submit: Save my reason
-      your_reason: Your reason. You can submit now, and our team reads it with your recipe.
+      modal_title_required: trmy revisa cada receta antes de que la envíes
+      modal_intro_required: trmy, nuestro agente interno de revisión, pasa tu plugin por las pruebas de trmnlp en TRMNL OG y TRMNL X, en horizontal y en vertical. Cuando trmy no encuentre nada que lo frene, podrás enviarlo, y una persona de nuestro equipo de soporte se encargará a partir de ahí. trmy responde en una página de aquí y te enviamos el enlace por correo, normalmente en menos de una hora.
+      gate_closed: Pide primero a trmy que revise tu última versión. Podrás enviarla cuando trmy no encuentre nada que frene tu receta, o cuando nos expliques por qué dejarías algo como está.
+      changed_since: Has cambiado tu receta después de esta revisión. Vuelve a pedírsela a trmy antes de enviarla.
+      passed: trmy no ha encontrado nada que frene tu receta. Ya puedes enviarla.
+      held: trmy te pide los cambios de arriba antes de enviarla. Hazlos y vuelve a pedirle la revisión, o explícanos abajo por qué dejarías algo como está.
+      justification_label: "¿Por qué dejarlo como está?"
+      justification_placeholder: El texto en X es más pequeño a propósito, para que toda la semana quepa en una pantalla.
+      justification_submit: Guardar mi motivo
+      your_reason: Tu motivo. Ya puedes enviarla, y nuestro equipo lo leerá junto con tu receta.
     data_flow:
       title: Flujo de datos
       markup: Código de marcado
@@ -2225,153 +2225,153 @@ es-ES:
       erroring: Detenido
       recipe_degraded: Receta con problemas
       recipe_erroring: Receta detenida
-      fork: Fork
-      instance: Instance %{id}
-      read_only: Read Only
-      recipe_master: Recipe Master
+      fork: Copia
+      instance: Instancia %{id}
+      read_only: Solo lectura
+      recipe_master: Receta original
     api_endpoint_picker:
-      adapted_from: Adapted from
-      api_page_html: API Page &rarr;
-      back_to_search_html: "&larr; Back to search"
-      browse: Browse third-party APIs
-      docs_html: Docs &rarr;
-      example_endpoints: Example Endpoints
-      outdated_warning: Some endpoints may be outdated or require registration.
-      search_placeholder: Search APIs (e.g. weather, crypto, news)...
+      adapted_from: Adaptado de
+      api_page_html: Página de la API &rarr;
+      back_to_search_html: "&larr; Volver a la búsqueda"
+      browse: Explorar API de terceros
+      docs_html: Documentación &rarr;
+      example_endpoints: Endpoints de ejemplo
+      outdated_warning: Algunos endpoints pueden estar desactualizados o requerir registro.
+      search_placeholder: Buscar API (p. ej., tiempo, cripto, noticias)...
     descriptions:
-      example: 'Example: %{example}'
-      more_options: "+ %{count} more"
+      example: 'Ejemplo: %{example}'
+      more_options: "+ %{count} más"
     featured_image:
-      description: For marketplace and recipe pages.
-      generate: Generate marketplace preview
-      generating: Generating preview…
-      label: Featured Image
-      plugin_description: Preview shown to users before they install your plugin.
-      plugin_label: Plugin Featured Image
-      remove_confirm: Remove featured image?
+      description: Para las páginas del marketplace y de recetas.
+      generate: Generar vista previa para el marketplace
+      generating: Generando vista previa…
+      label: Imagen destacada
+      plugin_description: Vista previa que ven los usuarios antes de instalar tu plugin.
+      plugin_label: Imagen destacada del plugin
+      remove_confirm: "¿Quitar la imagen destacada?"
     featured_images:
-      generating: Generating marketplace preview…
+      generating: Generando vista previa para el marketplace…
       remove_featured_image:
-        error: Something went wrong removing the featured image.
-        nothing_to_remove: No featured image to remove.
-        success: Featured image removed.
+        error: Algo ha fallado al quitar la imagen destacada.
+        nothing_to_remove: No hay ninguna imagen destacada que quitar.
+        success: Imagen destacada quitada.
       set_plugin_featured_image:
-        forbidden: You don't have permission to set the featured image for this plugin.
+        forbidden: No tienes permiso para poner la imagen destacada de este plugin.
     field:
-      clear_location: Clear location
-      import_selected: Import Selected
-      no_photos_selected: No photos selected yet.
-      perform: Perform
-      photos_expire_on: Google shares these photos until %{date}, then you pick again.
-      photos_expired: Google stopped sharing these photos. Pick them again to bring them back.
-      photos_selected: Photos currently selected.
-      pick_photos: Pick Photos
-      save_first: "(Save this plugin first)"
-      save_first_to_pick_photos: Save this plugin first, then pick photos.
-      save_first_to_reveal: Save this plugin first to reveal your %{field}.
-      secret_is_set: Secret is set. Leave blank to keep current value.
-      select_or_search: Select or search...
-      show_password: Show password
-      stored: 'Stored: %{value}'
-      xhr_endpoint_oauth_gap_html: This dropdown uses <code>endpoint</code>, which runs in the browser and can't send your OAuth token. To call an authenticated API, use a <code>remote:</code> block instead.
+      clear_location: Borrar ubicación
+      import_selected: Importar seleccionadas
+      no_photos_selected: Todavía no hay fotos seleccionadas.
+      perform: Ejecutar
+      photos_expire_on: Google comparte estas fotos hasta el %{date}; después vuelves a elegirlas.
+      photos_expired: Google ha dejado de compartir estas fotos. Vuelve a elegirlas para recuperarlas.
+      photos_selected: Fotos seleccionadas ahora.
+      pick_photos: Elegir fotos
+      save_first: "(Guarda primero este plugin)"
+      save_first_to_pick_photos: Guarda primero este plugin y después elige las fotos.
+      save_first_to_reveal: Guarda primero este plugin para ver tu %{field}.
+      secret_is_set: El secreto ya está guardado. Déjalo en blanco para mantener el valor actual.
+      select_or_search: Selecciona o busca...
+      show_password: Mostrar contraseña
+      stored: 'Guardado: %{value}'
+      xhr_endpoint_oauth_gap_html: Este desplegable usa <code>endpoint</code>, que se ejecuta en el navegador y no puede enviar tu token de OAuth. Para llamar a una API autenticada, usa un bloque <code>remote:</code>.
     google_photos:
       import_session:
-        no_picked_media: No picked media found for this session
+        no_picked_media: No se han encontrado fotos elegidas en esta sesión
     mcp_keys:
       create:
-        success: MCP key generated.
+        success: Clave MCP generada.
       destroy:
-        success: MCP key revoked.
+        success: Clave MCP revocada.
     missing_markup_banner:
-      add_markup: Add markup
-      message: No layout yet — this plugin won't display until you add markup.
+      add_markup: Añadir markup
+      message: 'Todavía no hay diseño: este plugin no se mostrará hasta que añadas markup.'
     multi_string_field:
-      add_another: Add another
-      add_another_label: Add another %{field} input
-      help: Enter values one per line. Commas are not allowed in individual values.
-      inputs_label: "%{field} inputs"
-      remove_input: Remove this input
+      add_another: Añadir otro
+      add_another_label: Añadir otro campo de %{field}
+      help: Escribe un valor por línea. No se permiten comas dentro de cada valor.
+      inputs_label: Campos de %{field}
+      remove_input: Quitar este campo
     oauth_cards:
-      authorize_with_account: Click below to authorize access with your account.
-      configuration_incomplete: OAuth Configuration Incomplete
-      configuration_incomplete_hint: Fill in Client ID, Client Secret, Authorization URL, and Token URL in the settings above to enable OAuth.
-      connection_settings: Connection Settings
-      connection_settings_hint: Required by %{provider} to connect to your specific account.
-      credentials_configured: Your OAuth credentials are configured. Click below to authorize access.
-      link_account_optional: Link account (optional)
-      link_account_optional_hint: Connect your %{plugin} account to pull data from the cloud — or skip this and push data directly using the Push URL above.
-      using_recipe_app: Using recipe's OAuth app
+      authorize_with_account: Haz clic abajo para autorizar el acceso con tu cuenta.
+      configuration_incomplete: Configuración de OAuth incompleta
+      configuration_incomplete_hint: Rellena Client ID, Client Secret, Authorization URL y Token URL en los ajustes de arriba para activar OAuth.
+      connection_settings: Ajustes de conexión
+      connection_settings_hint: "%{provider} los necesita para conectarse a tu cuenta concreta."
+      credentials_configured: Tus credenciales de OAuth están configuradas. Haz clic abajo para autorizar el acceso.
+      link_account_optional: Vincular cuenta (opcional)
+      link_account_optional_hint: Conecta tu cuenta de %{plugin} para traer datos de la nube, o sáltate este paso y envía los datos directamente con la Push URL de arriba.
+      using_recipe_app: Usando la app de OAuth de la receta
     oauth_connection_status:
-      authorization_url_error: We could not build an authorization URL from these settings. Check that the Authorization URL above is a single valid URL, and that every connection config field it references has a value.
-      broken: OAuth Connection Broken
-      broken_hint: The provider is rejecting our attempts to refresh your access token, so data fetches and option dropdowns are failing. Reconnect to authorize again.
-      connect: Connect with OAuth
-      connected: OAuth Connected
-      connected_hint_html: Use <code class="bg-gray-100 dark:bg-gray-700 px-1 py-0.5 rounded">{{ oauth_access_token }}</code> and <code class="bg-gray-100 dark:bg-gray-700 px-1 py-0.5 rounded">{{ oauth_client_id }}</code> in your polling headers for authenticated requests.
-      disconnect: Disconnect OAuth
-      disconnect_confirm: Are you sure you want to disconnect OAuth?
-      not_connected: OAuth Not Connected
-      provider_error: 'Provider error:'
-      reconnect: Reconnect with OAuth
+      authorization_url_error: No hemos podido crear una URL de autorización con estos ajustes. Comprueba que la Authorization URL de arriba sea una única URL válida y que todos los campos de configuración de la conexión a los que hace referencia tengan valor.
+      broken: Conexión de OAuth rota
+      broken_hint: El proveedor está rechazando nuestros intentos de renovar tu token de acceso, así que fallan la obtención de datos y los desplegables de opciones. Vuelve a conectar para autorizar de nuevo.
+      connect: Conectar con OAuth
+      connected: OAuth conectado
+      connected_hint_html: Usa <code class="bg-gray-100 dark:bg-gray-700 px-1 py-0.5 rounded">{{ oauth_access_token }}</code> y <code class="bg-gray-100 dark:bg-gray-700 px-1 py-0.5 rounded">{{ oauth_client_id }}</code> en las cabeceras de tus consultas para las peticiones autenticadas.
+      disconnect: Desconectar OAuth
+      disconnect_confirm: "¿Seguro que quieres desconectar OAuth?"
+      not_connected: OAuth no conectado
+      provider_error: 'Error del proveedor:'
+      reconnect: Volver a conectar con OAuth
     oauth_provider_select_field:
-      not_working: Provider not working?
-      prompt: "-- Select Provider (or Custom) --"
-      report_broken: Report broken provider
-      request_new: Request new provider
-      search_placeholder: Search providers...
+      not_working: "¿El proveedor no funciona?"
+      prompt: "-- Selecciona un proveedor (o personalizado) --"
+      report_broken: Informar de un proveedor roto
+      request_new: Pedir un proveedor nuevo
+      search_placeholder: Buscar proveedores...
     private_plugin_oauth:
       disconnect:
-        invalid_request: Invalid request
-        success: OAuth disconnected
+        invalid_request: Solicitud no válida
+        success: OAuth desconectado
       redirect:
-        success: OAuth connected successfully!
+        success: "¡OAuth conectado correctamente!"
     redirect:
-      authorization_failed: Authorization failed. Please try connecting again.
+      authorization_failed: La autorización ha fallado. Vuelve a intentar la conexión.
     reset_health:
-      success: Plugin health reset successfully.
+      success: Estado del plugin restablecido correctamente.
     setting_field:
-      enable: Enable
-      loading: Loading...
-      yaml_valid: YAML looks good.
-      source_plugin_missing_html: Add %{link} first, then pick it here.
+      enable: Activar
+      loading: Cargando...
+      yaml_valid: El YAML está bien.
+      source_plugin_missing_html: Añade primero %{link} y después elígelo aquí.
     recipe_source:
-      changed_since_copy: The recipe has changed since you copied it.
-      differs_from_recipe: Your copy is different from the recipe.
-      see_changes: See what changed
+      changed_since_copy: La receta ha cambiado desde que la copiaste.
+      differs_from_recipe: Tu copia es distinta de la receta.
+      see_changes: Ver qué ha cambiado
     recipe_update:
-      title: Recipe changes
-      back: Back to settings
-      intro_since_copy: What the recipe changed since you copied it. Taking a change keeps your own edits.
-      intro_differs: How your copy differs from the recipe.
-      up_to_date: Your copy has every change from the recipe.
-      take_all: Take all changes
-      take: Take these changes
-      replace: Use the recipe's version
-      recipe_changes: What the recipe changed
-      your_changes: What you changed
-      no_line_changes: No changed lines to show.
-      own_unchanged: You have not changed this file.
-      own_changed: You changed this file too. Taking the recipe's changes keeps yours.
-      conflict: You and the recipe changed the same lines, so the two cannot be put together. You can use the recipe's version instead, and undo it from the editor's history.
-      no_copy: Your copy is older than the record of what you copied, so this shows your version against the recipe's. Using the recipe's version replaces yours, and you can undo it from the editor's history.
+      title: Cambios de la receta
+      back: Volver a los ajustes
+      intro_since_copy: Lo que ha cambiado la receta desde que la copiaste. Al aplicar un cambio se conservan tus propias ediciones.
+      intro_differs: En qué se diferencia tu copia de la receta.
+      up_to_date: Tu copia tiene todos los cambios de la receta.
+      take_all: Aplicar todos los cambios
+      take: Aplicar estos cambios
+      replace: Usar la versión de la receta
+      recipe_changes: Lo que ha cambiado la receta
+      your_changes: Lo que has cambiado tú
+      no_line_changes: No hay líneas cambiadas que mostrar.
+      own_unchanged: No has cambiado este archivo.
+      own_changed: Tú también has cambiado este archivo. Al aplicar los cambios de la receta se conservan los tuyos.
+      conflict: Tú y la receta habéis cambiado las mismas líneas, así que no se pueden combinar. Puedes usar la versión de la receta y deshacerlo desde el historial del editor.
+      no_copy: Tu copia es anterior al registro de lo que copiaste, así que aquí se compara tu versión con la de la receta. Usar la versión de la receta reemplaza la tuya, y puedes deshacerlo desde el historial del editor.
       results:
-        merged: Took the recipe's changes to %{file}.
-        replaced: "%{file} now uses the recipe's version."
-        conflict: "%{file} has changes that clash with yours. Nothing was saved."
-        not_mergeable: "%{file} can only use the recipe's version."
-        unchanged: "%{file} has no changes to take."
+        merged: Se han aplicado los cambios de la receta a %{file}.
+        replaced: "%{file} usa ahora la versión de la receta."
+        conflict: "%{file} tiene cambios que chocan con los tuyos. No se ha guardado nada."
+        not_mergeable: "%{file} solo puede usar la versión de la receta."
+        unchanged: "%{file} no tiene cambios que aplicar."
         taken_all:
-          one: Took the recipe's changes to 1 file.
-          other: Took the recipe's changes to %{count} files.
+          one: Se han aplicado los cambios de la receta a 1 archivo.
+          other: Se han aplicado los cambios de la receta a %{count} archivos.
       files:
-        markup_full: Full
-        markup_half_horizontal: Half horizontal
-        markup_half_vertical: Half vertical
-        markup_quadrant: Quadrant
-        markup_shared: Shared markup
-        transform_js: Transform script
-        tidbyt_canvas: Tidbyt canvas
-        vestaboard_canvas: Vestaboard canvas
+        markup_full: Completo
+        markup_half_horizontal: Mitad horizontal
+        markup_half_vertical: Mitad vertical
+        markup_quadrant: Cuadrante
+        markup_shared: Markup compartido
+        transform_js: Script de transformación
+        tidbyt_canvas: Lienzo de Tidbyt
+        vestaboard_canvas: Lienzo de Vestaboard
   recipes:
     index:
       newest_to_oldest: más nuevas a más antiguas
